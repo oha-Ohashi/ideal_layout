@@ -1,0 +1,33 @@
+body{
+    background-color: #252525;
+    color:blanchedalmond;
+}
+
+.kb_area{
+    position: relative;
+    border: solid 1px #ffebcdbe;
+}
+.kb_area .kb_row{
+    border-bottom: solid #ff9d0070 0.5px;
+    height: 33.33%;
+}
+.kb_area .kb_key{
+    display: inline-block;
+    background-color: #ffffff2d;
+    height: 100%;
+}
+.kb_area .kb_cap{
+    display: inline-block;
+    background-color: #c2434300;
+    border: solid 1px #ffffff7e;
+    height: 80%;
+    width: 80%;
+    margin: 10%;
+}
+.kb_area .kb_fing{
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    border: solid 1px white;
+    border-radius: 50%;
+}
