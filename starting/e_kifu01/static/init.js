@@ -27,8 +27,8 @@ $(document).ready(function(){
             var key = $("<div>",{
                 class: "kb_key"
             });
-            $("<div>", {
-                class: "kb_cap"
+            $("<span>", {
+                class: "kb_cap",
             }).appendTo($(key))
             key.appendTo($(this));
         }
@@ -60,4 +60,10 @@ function fing_set(obj, xy){
     obj.css(
         {left: xy[0], top: xy[1]}
     );
+}
+function disp_30_legends(str){
+    console.log("'keys length:'" + str.length);
+    for(var i = 0; i < str.length; i++){
+        $(".kb_cap").eq(i).text(str[i]);
+    }
 }
