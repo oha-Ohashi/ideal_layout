@@ -35,9 +35,16 @@ if __name__ == '__main__':
     disp_eval('ABCDEFGHIJKLMNOPQRSTUVWXYZ____')
     disp_eval('QWERTYUIOPASDFGHJKL_ZXCVBNM___')
     disp_eval("___PYFGCRLAOEUIDHTNS_QJKXBMWVZ")
+    disp_eval("QWFPBJLUY_ARSTGMNEIOZXCDVKH___")
     disp_eval("QW___MRDYPAOEIUGTKSNZXCVFBHJL_")
     disp_eval("_WBF_MRDYPAOEUIGTKNSZXCV__HJLQ")
-    disp_eval("XPFU__DMWBOEAICSNKTRQVYG__HJLZ")
-    disp_eval("FGSM__CUPXNRKTDYEAOIZHJL__BWVQ")
+    #disp_eval("XPFU__DMWBOEAICSNKTRQVYG__HJLZ")
+    #disp_eval("FGSM__CUPXNRKTDYEAOIZHJL__BWVQ")
+    disp_eval("GFDM__CYBXRTKNSIAEOUZHJL__PWVQ")
+    print("左HJKL固定")
+    disp_eval("ZGMK__CWPQDNHTRIEAOUVFLS__YBXJ")
+    print("無固定(右母音)")
+    disp_eval("QBYC__MDLFIEAOURNTHSJXWP__KGZV")
+    print("無固定(左母音)")
 
    
