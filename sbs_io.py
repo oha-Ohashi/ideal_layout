@@ -32,9 +32,9 @@ class MojiretsuSousa:
         self.nai_list = self.aru_nai()
     
     def aru_nai(self):
-        nai_list = list('ABCDEFGHIJKLMNOPQRSTUVWXYZ;,./')
+        nai_list = list('ABCDEFGHIJKLMNOPQRSTUVWXYZ')
         for c in self.layout_list:
-            if c != '_':
+            if c != 'x' and c != '_':
                 nai_list.remove(c)
         return nai_list
     
@@ -43,7 +43,7 @@ class MojiretsuSousa:
         modoshi = []
         for i in range(30):
             c = self.layout_list[i]
-            if c != '_':
+            if c != 'x':
                 modoshi.append(c)
             else:
                 item = target.pop(0)
