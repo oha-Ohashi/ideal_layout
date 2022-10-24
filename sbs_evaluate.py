@@ -18,9 +18,9 @@ def keys3x10(keys):            #三行にかえる
 
 def evaluate(keys):
     text = 'it is a fine day'
-    with open('./txt_to_type/en.txt') as f:
+    with open('./txt_to_type/en.txt', encoding="utf-8") as f:
         text += f.read()
-    with open('./txt_to_type/ja.txt') as f:
+    with open('./txt_to_type/ja.txt', encoding="utf-8") as f:
         text += f.read()
     #text = "rand no men known to us could have built this place, nor the men known to our brothers who lived before us, andyet it was built by men.we knelt, and we crawled forward, our hand groping alongthe iron line to see where it would lead.our heart beat in our fingertips"
     #text += 'kanzi ・ kana ma ziri no bunsyou wo 、 hiragana oyo bi ro-ma zi ni sorezore henkan si masu 。ka no tekisuto eria ni nihongo no bunsyou wo nyuuryoku 、 mataha ha rituke te 、 「 henkan zikkou 」 botan wo o si te kuda sai 。saidai 、 8000 mozi made henkan kanou desu 。'
